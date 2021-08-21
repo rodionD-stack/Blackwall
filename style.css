@@ -202,6 +202,13 @@ a {
     gap: 45px;
   }
 
+  .right__sign {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #18216d;
+  }
+
   .right__download {
     background: #18216d;
     border-radius: 6px;

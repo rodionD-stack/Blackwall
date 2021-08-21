@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #18216d;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 187px);
+  padding-right: calc(50% - 187px);
+}
+
+/*___UTILS___*/
+.utils {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 20px 30px;
+}
+
+.utils__right {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 20px 0;
+}
+
+/*___PROMO___*/
+.promo {
+  display: flex;
+  flex-direction: column;
+  margin: 44px 20px 60px;
+  align-items: center;
+}
+
+.promo__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__heading {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.promo__text {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 20px 0 33px;
+}
+
+.promo__btn {
+  background: #00ecd0;
+  border-radius: 6px;
+  border: none;
+  color: #18216d;
+  padding: 11px 17px;
+}
+
+.promo__logo {
+  margin: 40px 0 60px;
+}
+
+/*___CALOBORATE___*/
+.caloborate {
+  margin: 0 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.caloborate__heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.caloborate__active {
+  display: flex;
+  gap: 95px;
+  margin: 22px 60px 60px;
+}
+
+.caloborate__company {
+  display: flex;
+  gap: 36px;
+}
+
+.company__item {
+  size: 25%;
+}
+
+.desc {
+  display: none;
+}
+
+/*___SPECIAL___*/
+
+.special {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 40px;
+}
+
+.special__heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.special__text {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  opacity: 0.5;
+  margin: 12px 0 40px;
+}
+
+.item__heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 0 12px;
+}
+
+.item__text {
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.link {
+  margin: 20px 0 48px;
+}
+
+.item__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  color: #18216d;
+}
+
+@media (min-width: 1440px) {
+  .center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desc {
+    display: block;
+  }
+
+  .navig {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 100px 0;
+  }
+
+  .navig__left {
+    display: flex;
+    gap: 110px;
+    align-items: center;
+  }
+
+  .left__link {
+    display: flex;
+    gap: 50px;
+  }
+
+  .link__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #18216d;
+  }
+
+  .navig__right {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .right__download {
+    background: #18216d;
+    border-radius: 6px;
+    padding: 16px 17px;
+    color: #ffffff;
+  }
+
+  .promo {
+    flex-direction: row;
+    margin: 50px 215px 120px;
+  }
+
+  .promo__info {
+    align-items: flex-start;
+  }
+
+  .promo__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    width: 500px;
+    text-align: start;
+  }
+
+  .promo__text {
+    text-align: start;
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .promo__logo {
+    position: relative;
+    right: 180px;
+  }
+
+  .promo__btn {
+    padding: 23px 37px;
+  }
+
+  .caloborate {
+    margin: 0 215px;
+  }
+
+  .caloborate__info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .caloborate__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .caloborate__active {
+    margin: 0;
+  }
+
+  .caloborate__company {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 130px;
+  }
+
+  .special {
+    margin: 0 215px 40px;
+  }
+
+  .special__info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .special__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+  }
+
+  .special__text {
+    font-size: 16px;
+    line-height: 30px;
+    width: 540px;
+  }
+
+  .special__quality {
+    display: flex;
+    gap: 80px;
+  }
+}
